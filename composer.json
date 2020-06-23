@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "phpunit/phpunit": "^7"
+    },
+    "scripts": {
+        "test": "phpunit src/MathTest.php"
+    }
+}

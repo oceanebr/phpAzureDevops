@@ -1,0 +1,14 @@
+image: composer:latest
+
+stages:
+ - test
+
+testing:
+  stage: test
+  tags:
+    - ci
+    - php
+  script:
+    - composer install
+    - run-script test
+
