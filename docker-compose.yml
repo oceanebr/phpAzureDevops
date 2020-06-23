@@ -6,3 +6,5 @@ services:
     command: run-script test
     volumes:
       - ./:/app/
+
+      
